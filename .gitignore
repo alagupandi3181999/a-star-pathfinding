@@ -1,11 +1,20 @@
+# Python cache
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
 .venv/
 venv/
 env/
+
+# OS / Editor files
 .DS_Store
 .vscode/
 .idea/
+
+# Results
 results/*.png
-# keep CSV if you want it tracked; otherwise uncomment:
+# Keep CSV tracked; uncomment below if you want to ignore results entirely
 # results/
